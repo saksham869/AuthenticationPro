@@ -1,9 +1,35 @@
-HELP.md
+# Maven
+/mvnw
+/mvnw.cmd
+*.jar
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### Spring Boot ###
+*.log
+logs/
+spring-boot.log
+spring.log
+spring/*.log
+spring/*.err
+spring/*.out
+
+# Environment files (CRITICAL!)
+.env
+.env.local
+.env.*.local
+.env.backup
+!.env.example
+
+# Database
+*.sql
+*.db
+*.sqlite
+*.h2.db
+
+# IDEs
 ### STS ###
 .apt_generated
 .classpath
@@ -14,10 +40,16 @@ target/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/
 *.iws
 *.iml
 *.ipr
+
+### Eclipse ###
+.settings/
+.project
+.classpath
+.metadata/
 
 ### NetBeans ###
 /nbproject/private/
@@ -31,3 +63,36 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### React Frontend (if in same repo) ###
+client/node_modules/
+client/.env
+client/.env.local
+client/build/
+client/dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~.nib
+local.properties
+
+# JetBrains
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+.idea/contentModel.xml
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
