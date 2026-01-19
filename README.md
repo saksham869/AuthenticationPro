@@ -2,8 +2,6 @@
 
 **AuthenticationPro** is a production-ready, scalable full-stack authentication system built with **Spring Boot 3+ (Backend)** and **React 18 + Vite (Frontend)**. It implements **enterprise-grade security practices** including **JWT authentication with RS256 asymmetric encryption**, **email verification**, **role-based access control (RBAC)**, and **secure environment-based configuration**.
 
-> Designed for real-world deployment, portfolio showcase, and startup-ready backend architecture.
-
 ---
 
 ## 🚀 Features
